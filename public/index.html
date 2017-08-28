@@ -17,10 +17,10 @@
 
 	<!-- ANGULAR CUSTOM -->
 	<script src="js/controllers/MainCtrl.js"></script>
-	<script src="js/controllers/NerdCtrl.js"></script>
-	<script src="js/services/NerdService.js"></script>
-	<script src="js/controllers/GeekCtrl.js"></script>
-	<script src="js/services/GeekService.js"></script>
+	<script src="js/controllers/GalleryCtrl.js"></script>
+	<script src="js/services/GalleryService.js"></script>
+	<script src="js/controllers/AboutCtrl.js"></script>
+	<script src="js/services/AboutService.js"></script>
 	<script src="js/controllers/ContactCtrl.js"></script>
 	<script src="js/services/ContactService.js"></script>
 	<script src="js/appRoutes.js"></script>
@@ -28,7 +28,7 @@
 </head>
 
 
-<body ng-app="sampleApp" ng-controller="NerdController">
+<body ng-app="sampleApp" ng-controller="GalleryController">
 <div class="container">
 
 <!-- NAVBAR -->
@@ -42,10 +42,10 @@
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav mr-auto">
 	      <li class="nav-item active">
-	        <a class="nav-link" href="/nerds">Gallery <span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="/gallery">Gallery <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item active">
-	        <a class="nav-link" href="/geeks">About</a>
+	        <a class="nav-link" href="/about">About</a>
 	      </li>
 	      <li class="nav-item active">
 	        <a class="nav-link" href="/contact">Contact</a>

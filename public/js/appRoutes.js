@@ -8,14 +8,14 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			controller: 'MainController'
 		})
 
-		.when('/nerds', {
-			templateUrl: 'views/nerd.html',
-			controller: 'NerdController'
+		.when('/gallery', {
+			templateUrl: 'views/gallery.html',
+			controller: 'GalleryController'
 		})
 
-		.when('/geeks', {
-			templateUrl: 'views/geek.html',
-			controller: 'GeekController'	
+		.when('/about', {
+			templateUrl: 'views/about.html',
+			controller: 'AboutController'	
 		})
 
 		.when('/contact', {
