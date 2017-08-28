@@ -1,1 +1,55 @@
-body { padding-top:30px; }
+body { padding-top:30px; 
+	   background-image: url("../resources/images/crossword.png");
+}
+
+.navbar {
+	background: #ddd6f3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.home {
+}
+
+.gallery{
+	background-repeat: repeat;
+	padding-bottom: 20px;
+}
+
+.row{
+	text-align: center;
+}
+
+.col-xs-4{
+	padding: 10px; 
+}
+
+.src-image {
+  display: none;
+}
+
+.card {
+  margin-top: 22px;
+  padding: 6px;
+  border-radius: 8px;
+  height: auto;
+  background: #ddd6f3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*  background-color: #284c79;
+  color: rgb(136, 172, 217);*/
+}
+
+.card .avatar {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  z-index: 100;
+}
+
+.card .avatar img {
+  max-width: 200px;
+  border-radius: 100%;
+  border: 5px solid rgba(0,0,30,0.8);
+}
