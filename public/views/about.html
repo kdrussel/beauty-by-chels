@@ -1,11 +1,10 @@
 <style>
 
 
-.parallax {
+/*.parallax {
     background-image: url("http://i.imgur.com/BIqs6gy.jpg");
     height: 450px;
-/*    min-height: 500px; 
-*/    background-attachment: fixed;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,12 +51,124 @@
 	padding: 18px;
 	font-size: 25px;
 	letter-spacing: 10px;
+}*/
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.img1, .img2, .img3 {
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.img1 {
+  background-image: url('https://i.imgur.com/ioc1Cb8.jpg');
+  min-height: 100%;
+}
+
+.img2 {
+  background-image: url('https://i.imgur.com/PdTOYk2.jpg');
+  min-height: 400px;
+}
+
+.img3 {
+  background-image: url('https://i.imgur.com/N1QzIMU.jpg');
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #ddd;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+.ptext .border .trans {
+  background-color: transparent;
 }
 
 
 </style>
 
-<div class="parallax">
+
+  <section class="section section-light">
+    <h2>Chelsey's Story</h2>
+    <p>Falafel chicken-fried steaks bitterballen empanadas. Elephant ears shrimp tempura funnel cakes. Far-far krupuks kroketten namak para churros. Scallion pancakes gator bites bitterballen papadums shrimp tempura. 
+
+    Popovers wontons crab rangoons gator bites. Jalapeño poppers onion rings gator bites. 
+
+    French fries angels on horseback pork-stuffed egg rolls samosas Hubig's pies. Bacalao pork dumplings baklava. Knishes croquettes veggie tempura brussel sprouts pakoras. Churros crawfish puffs corndogs chicken fingers with Cane's sauce. Latkes scallion pancakes bloomin' onions french fries fried pickles. Crawfish pies veal parmigiana bitterballen pork dumplings beignets. Mozzarella sticks chicken cutlets angels on horseback elephant ears veggie tempura. </p>
+  </section>
+
+  <div class="img2">
+    <div class="ptext">
+      <span class="border trans">
+        Image 2
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Section Two</h2>
+    <p>Lorem ipsum dolor amet before they sold out kale chips banjo, fingerstache shoreditch hot chicken raw denim godard wayfarers craft beer crucifix knausgaard hella ramps cronut. Tattooed knausgaard celiac narwhal readymade artisan. Irony gentrify bushwick distillery, +1 you probably haven't heard of them ethical kale chips try-hard af man braid unicorn. Kale chips art party post-ironic glossier, butcher neutra cliche DIY lyft roof party hell of listicle trust fund. Four loko disrupt tumblr copper mug, tattooed fixie drinking vinegar retro etsy hell of cornhole.</p>
+  </section>
+
+  <div class="img3">
+    <div class="ptext">
+      <span class="border trans">
+        Image 3
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Section Three</h2>
+    <p>Prism green juice kogi hella, live-edge squid gluten-free. Iceland photo booth hot chicken messenger bag pork belly. Tbh 90's waistcoat ennui +1 offal. Gastropub chia affogato kickstarter mixtape hexagon paleo meditation microdosing kitsch thundercats ramps normcore seitan. Crucifix bitters hell of art party synth readymade forage, biodiesel post-ironic taiyaki XOXO affogato blog. Meh banh mi kinfolk, austin crucifix kale chips shoreditch fam lyft.</p>
+  </section>
+
+  <div class="img1">
+    <div class="ptext">
+
+    </div>
+  </div>
+
+<!-- <div class="parallax">
 </div>
 
 
@@ -67,4 +178,4 @@
 </div>
 
 <div class="parallax2">
-</div>
+</div> -->
